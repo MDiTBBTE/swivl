@@ -1,0 +1,13 @@
+.home {
+  &_inner {
+    padding: 10px;
+
+    &_userWrapper {
+      margin-top: 10px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}

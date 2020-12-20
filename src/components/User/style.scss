@@ -1,0 +1,25 @@
+.userCard {
+
+    &_inner {
+        display: flex;
+
+        &_img {
+            border-radius: 4px;
+            width: 100px;
+        }
+
+        &_details {
+            margin-left: 10px;
+
+            &_field {
+                &:last-child {
+                    &>a {
+                        text-decoration: none;
+                        margin-left: 5px;
+                        color: royalblue;
+                    }
+                }
+            }
+        }
+    }
+}
